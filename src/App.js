@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import { config } from './config/config';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={config.images.home.logo} className="App-logo" alt="logo" />
         <p>
-          Testing update!
+          {config.strings.home.header}
         </p>
         <a
           className="App-link"
