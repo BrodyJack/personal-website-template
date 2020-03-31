@@ -2,7 +2,7 @@ import logo from '../logo.svg';
 
 const strings = {
     home: {
-        header: 'I am Brody Johnstone'
+        header: 'I am <place name here>'
     }
 }
 
